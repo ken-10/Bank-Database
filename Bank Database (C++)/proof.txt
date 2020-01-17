@@ -1,0 +1,210 @@
+Script started on Sat 14 Dec 2019 10:25:11 PM HST
+]0;kentung@uhx02:~/project1[?1034huhx02:/home/k/kentung/project1% git checkout project1
+Switched to branch 'project1'
+]0;kentung@uhx02:~/project1uhx02:/home/k/kentung/project1% sh getreport.sh
+* c9b7090 [31m (project2) [32m2019-12-14 [34mKen Tung [mAdd files of Project 2
+* 8c0864a [31m [32m2019-12-14 [34mKen Tung [mRename files
+* 5873974 [31m (master) [32m2019-11-14 [34mKen Tung [mModified getaddress function for Lab Testing
+* de5d552 [31m (HEAD, project1) [32m2019-11-04 [34mKen Tung [mAdd files to project1
+# On branch project1
+nothing to commit, working directory clean
+total 68
+drwxr-xr-x.  3 kentung uh  4096 Dec 14 22:25 .
+drwx-----x. 24 kentung uh  4096 Dec 14 22:24 ..
+-rw-r--r--.  1 kentung uh 16801 Dec 14 22:25 database.c
+-rw-r--r--.  1 kentung uh   723 Dec 14 22:25 database.h
+-rw-r--r--.  1 kentung uh    62 Dec 10 14:35 database.txt
+-rwxr-xr-x.  1 kentung uh   167 Nov  3 19:12 getreport.sh
+drwxr-xr-x.  8 kentung uh   166 Dec 14 22:25 .git
+-rw-r--r--.  1 kentung uh    18 Nov  4 22:42 .gitignore
+-rw-r--r--.  1 kentung uh   369 Dec 14 22:25 Makefile
+-rw-r--r--.  1 kentung uh     0 Dec 14 22:25 proof.txt
+-rw-r--r--.  1 kentung uh   540 Dec 14 22:25 record.h
+-rw-r--r--.  1 kentung uh  2043 Dec 14 22:20 summary.txt
+-rw-r--r--.  1 kentung uh  7114 Dec 14 22:25 user_interface.c
+rm: cannot remove ‘*.o’: No such file or directory
+gcc -ansi -pedantic-errors -Wall -c user_interface.c
+gcc -ansi -pedantic-errors -Wall -c database.c
+gcc -o project1 user_interface.o database.o
+]0;kentung@uhx02:~/project1uhx02:/home/k/kentung/project1% ./pri[Koject1
+
+-----------------Welcome to UH Manoa Banking-------------------
+
+Choose an option by entering the corresponding number:
+
+Type 1 to add a new record.
+Type 2 to view a record.
+Type 3 to view all records.
+Type 4 to edit a record.
+Type 5 to delete a record.
+Type 0 to quit the program.
+3
+
+Account number: 10
+Name: Treyu 
+Address:
+111 kahala ave
+hon. hi
+
+
+Account number: 5
+Name: Ken 
+Address:
+555 dole st
+hon, hi
+
+
+-----------------Welcome to UH Manoa Banking-------------------
+
+Choose an option by entering the corresponding number:
+
+Type 1 to add a new record.
+Type 2 to view a record.
+Type 3 to view all records.
+Type 4 to edit a record.
+Type 5 to delete a record.
+Type 0 to quit the program.
+0
+Quitting the program...
+]0;kentung@uhx02:~/project1uhx02:/home/k/kentung/project1% git checkout project2
+Switched to branch 'project2'
+]0;kentung@uhx02:~/project1uhx02:/home/k/kentung/project1% sh getreport.sh
+* c9b7090 [31m (HEAD, project2) [32m2019-12-14 [34mKen Tung [mAdd files of Project 2
+* 8c0864a [31m [32m2019-12-14 [34mKen Tung [mRename files
+* 5873974 [31m (master) [32m2019-11-14 [34mKen Tung [mModified getaddress function for Lab Testing
+* de5d552 [31m (project1) [32m2019-11-04 [34mKen Tung [mAdd files to project1
+# On branch project2
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	[31mproject1[m
+nothing added to commit but untracked files present (use "git add" to track)
+total 112
+drwxr-xr-x.  3 kentung uh  4096 Dec 14 22:26 .
+drwx-----x. 24 kentung uh  4096 Dec 14 22:24 ..
+-rw-r--r--.  1 kentung uh 11544 Dec 14 22:25 database.o
+-rw-r--r--.  1 kentung uh    62 Dec 14 22:25 database.txt
+-rwxr-xr-x.  1 kentung uh   167 Nov  3 19:12 getreport.sh
+drwxr-xr-x.  8 kentung uh   166 Dec 14 22:26 .git
+-rw-r--r--.  1 kentung uh    18 Nov  4 22:42 .gitignore
+-rw-r--r--.  1 kentung uh 22717 Dec 14 22:26 llist.cpp
+-rw-r--r--.  1 kentung uh  1131 Dec 14 22:26 llist.h
+-rw-r--r--.  1 kentung uh   394 Dec 14 22:26 Makefile
+-rwxr-xr-x.  1 kentung uh 17672 Dec 14 22:25 project1
+-rw-r--r--.  1 kentung uh     0 Dec 14 22:25 proof.txt
+-rw-r--r--.  1 kentung uh   642 Dec 14 22:26 record.h
+-rw-r--r--.  1 kentung uh  2043 Dec 14 22:20 summary.txt
+-rw-r--r--.  1 kentung uh  7129 Dec 14 22:26 user_interface.cpp
+-rw-r--r--.  1 kentung uh  7544 Dec 14 22:25 user_interface.o
+g++ -ansi -pedantic-errors -Wall  -c user_interface.cpp
+g++ -ansi -pedantic-errors -Wall  -c llist.cpp
+g++ -o project2 user_interface.o llist.o
+]0;kentung@uhx02:~/project1uhx02:/home/k/kentung/project1% ./project2[K
+bash: ./project: No such file or directory
+]0;kentung@uhx02:~/project1uhx02:/home/k/kentung/project1% ./project2
+
+---------------Welcome to UH Manoa Banking---------------
+
+Choose an option by entering the corresponding number: 
+
+Type 1 to add a new record
+Type 2 to view a record
+Type 3 to view all records.
+Type 4 to edit a record.
+Type 5 to delete a record.
+Type 6 to reverse the database.
+Type 0 to quit the program.
+3
+
+
+ALL DATABASES: 
+
+Account: 10
+Name: Treyu 
+Address: 
+111 kahala ave
+hon. hi
+
+
+Account: 5
+Name: Ken 
+Address: 
+555 dole st
+hon, hi
+
+
+---------------Welcome to UH Manoa Banking---------------
+
+Choose an option by entering the corresponding number: 
+
+Type 1 to add a new record
+Type 2 to view a record
+Type 3 to view all records.
+Type 4 to edit a record.
+Type 5 to delete a record.
+Type 6 to reverse the database.
+Type 0 to quit the program.
+1
+Enter the new account number: 
+12
+Enter name: 
+alex
+Enter the address ( ';' then 'ENTER' to quit )
+kalhi
+hi hon;
+The new account: 12 has been successfully added!
+
+---------------Welcome to UH Manoa Banking---------------
+
+Choose an option by entering the corresponding number: 
+
+Type 1 to add a new record
+Type 2 to view a record
+Type 3 to view all records.
+Type 4 to edit a record.
+Type 5 to delete a record.
+Type 6 to reverse the database.
+Type 0 to quit the program.
+3
+
+
+ALL DATABASES: 
+
+Account: 12
+Name: alex
+Address: 
+kalhi
+hi hon
+
+
+Account: 10
+Name: Treyu 
+Address: 
+111 kahala ave
+hon. hi
+
+
+Account: 5
+Name: Ken 
+Address: 
+555 dole st
+hon, hi
+
+
+---------------Welcome to UH Manoa Banking---------------
+
+Choose an option by entering the corresponding number: 
+
+Type 1 to add a new record
+Type 2 to view a record
+Type 3 to view all records.
+Type 4 to edit a record.
+Type 5 to delete a record.
+Type 6 to reverse the database.
+Type 0 to quit the program.
+0
+Quitting the program...
+]0;kentung@uhx02:~/project1uhx02:/home/k/kentung/project1% exit
+exit
+
+Script done on Sat 14 Dec 2019 10:27:32 PM HST
