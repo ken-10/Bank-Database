@@ -1,0 +1,77 @@
+Script started on Mon 04 Nov 2019 10:56:55 PM HST
+]0;kentung@uhx02:~/project1[?1034huhx02:/home/k/kentung/project1% get rep[K[K[K[K[K[K[K./getreport.sh
+* de5d552 [31m (HEAD, project1, master) [32m2019-11-04 [34mKen Tung [mAdd files to project1
+# On branch master
+nothing to commit, working directory clean
+total 56
+drwxr-xr-x.  3 kentung uh   184 Nov  4 22:56 .
+drwx-----x. 17 kentung uh  4096 Nov  4 22:55 ..
+-rw-r--r--.  1 kentung uh 16801 Nov  4 22:53 database.c
+-rw-r--r--.  1 kentung uh   723 Oct 30 15:47 database.h
+-rwxr-xr-x.  1 kentung uh   167 Nov  3 19:12 getreport.sh
+drwxr-xr-x.  8 kentung uh   166 Nov  4 22:57 .git
+-rw-r--r--.  1 kentung uh    18 Nov  4 22:42 .gitignore
+-rw-r--r--.  1 kentung uh   369 Nov  4 21:04 Makefile
+-rw-r--r--.  1 kentung uh     0 Nov  4 22:56 proof.txt
+-rw-r--r--.  1 kentung uh   540 Oct 23 22:46 record.h
+-rw-r--r--.  1 kentung uh  1635 Nov  1 14:00 summary.txt
+-rw-r--r--.  1 kentung uh  7114 Nov  4 22:38 user_interface.c
+rm: cannot remove ‘*.o’: No such file or directory
+gcc -ansi -pedantic-errors -Wall -c user_interface.c
+gcc -ansi -pedantic-errors -Wall -c database.c
+gcc -o project1 user_interface.o database.o
+]0;kentung@uhx02:~/project1uhx02:/home/k/kentung/project1% ./project1
+
+-----------------Welcome to UH Manoa Banking-------------------
+
+Choose an option by entering the corresponding number:
+
+Type 1 to add a new record.
+Type 2 to view a record.
+Type 3 to view all records.
+Type 4 to edit a record.
+Type 5 to delete a record.
+Type 0 to quit the program.
+1
+Enter the new account number: 2000
+Enter name: Ken Tung
+Enter your address (ESC then ENTER to quit): 
+111 Dole St.,
+Honolulu, Hi   96817^[
+The new account: 2000 has been successfully added!
+
+-----------------Welcome to UH Manoa Banking-------------------
+
+Choose an option by entering the corresponding number:
+
+Type 1 to add a new record.
+Type 2 to view a record.
+Type 3 to view all records.
+Type 4 to edit a record.
+Type 5 to delete a record.
+Type 0 to quit the program.
+3
+
+Account number: 2000
+Name: Ken Tung 
+Address:
+111 Dole St.,
+Honolulu, Hi 96817
+
+
+-----------------Welcome to UH Manoa Banking-------------------
+
+Choose an option by entering the corresponding number:
+
+Type 1 to add a new record.
+Type 2 to view a record.
+Type 3 to view all records.
+Type 4 to edit a record.
+Type 5 to delete a record.
+Type 0 to quit the program.
+0
+Quitting the program...
+]0;kentung@uhx02:~/project1uhx02:/home/k/kentung/project1% exit
+exit
+
+Script done on Mon 04 Nov 2019 10:57:44 PM HST
